@@ -1,0 +1,76 @@
+.imgBoxMusic{
+    background-image: url("../assets/imgTop12.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.imgBoxMusic p{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px 0px;
+    width: 10px;
+    padding: 10px;
+}
+
+.nameArtist{
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.nameMusic{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.botao{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+    border: 1.6px solid red;
+    width: 180px;
+    padding: .3rem 2rem;
+    border-radius: 60px;
+    gap: .8rem;
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+
+.botao a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.botao i{
+    color: red;
+}
+
+.botao-pai{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Após passar o mouse sobre o botao*/
+.botao:hover{
+    background-color: red;
+}
+
+.botao:hover a, .botao:hover i{
+    color: white;
+}

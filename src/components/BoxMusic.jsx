@@ -1,14 +1,25 @@
-import imgTop12 from '../assets/imgTop12.jpg'
+import './boxMusic.css'
 
-function BoxMusic(){
-    <div>
-        <img src={imgTop12} alt="" />
-        <p>ZÉ NETO & CRISTIANO</p>
-        <p>DEU MORAL</p>
-        <button href="https://www.youtube.com/watch?v=CH8-4BbYSf4&pp=ygUJZGV1IG1vcmFs" target="_blank"></button>
+function BoxMusic({artista, musica, link}){
+    return(
 
-    </div>
+        <div>
+            <div className='imgBoxMusic'> 
+                <p>1</p>
+            </div>
+            
+            <p className='nameArtist'>{artista}</p>
+            <p className='nameMusic'>{musica}</p>
 
+            <div className='botao-pai'>
+                <button className='botao'>
+                    <a href={link}>Ouça agora</a>
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+
+        </div>
+    )
 }
 
-export default BoxMusic
+export default BoxMusic;
