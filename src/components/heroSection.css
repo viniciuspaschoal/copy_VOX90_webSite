@@ -1,0 +1,113 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.propagandas{
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+
+    background-image: url("../assets/SABADOU.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 640px;
+    border-radius: 40px;
+    overflow: hidden;
+    
+}
+
+/*Ajusta os botoes no final da propaganda*/
+.container-music{
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.controle-playpause{
+    display: flex;
+    flex-direction: column;
+}
+
+.play-pause{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 360px;
+}
+
+.aoVivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+    background-color: yellow;
+    margin-top: -0.8rem; /*Faz o elemento fica por cima do anterior*/
+    width: 60px;
+    font-size: 13px;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+.controler{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.volume{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume i{
+    font-size: 1.8rem;
+    color: red;
+}
+
+.volume input{
+    -webkit-appearance: none; /*remove o contorno azul do slider*/
+    width: 100%;        
+    height: 6px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+/* Estilo para o "thumb" (círculo deslizante) */
+.volume input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px; 
+    height: 20px; 
+    background: #fff;
+    border-radius: 5px;
+}
+
+.cam-icon{
+    font-size: 1.8rem;
+    color: red;
+}
+
+.music{
+    display: flex;
+    padding-left: 20px;
+}
+
+.music img{
+    width: 80px;
+    height: 80px;
+    border: 3px solid grey;
+    border-radius: 10px;
+}

@@ -15,6 +15,7 @@ function Header(){
             </nav>
 
             <aside class="time">
+                <i class="fa-regular fa-clock"></i>
                 <p>12:00</p>
             </aside>
 
