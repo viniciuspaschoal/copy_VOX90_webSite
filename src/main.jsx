@@ -5,12 +5,14 @@ import './index.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import MaisPedidas from './components/MaisPedidas'
+import BoxPromo from './components/BoxPromo'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
     <HeroSection />
     <MaisPedidas />
+    <BoxPromo />
   </StrictMode>,
   
 )

@@ -6,7 +6,7 @@ import img_music from '../assets/music.jpg'
 function HeroSection(){
     return(
 
-        <section>
+        <section className='hero-section'>
             <div class="propagandas">
                 {/*<img class="images-propagandas" src={sabadou} alt="" />*/}
 
@@ -40,7 +40,7 @@ function HeroSection(){
                             <img src={img_music} alt="" />
                             <div>
                                 <p class="name-music">A Culpa É Nossa - Ao Vivo</p>
-                                <p>VOX MIX com MARCÃO</p>
+                                <p className='programacao-aoVivo'>VOX MIX com MARCÃO</p>
                             </div>
                         </div>
 
