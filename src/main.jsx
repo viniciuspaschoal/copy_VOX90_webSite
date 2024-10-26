@@ -5,14 +5,15 @@ import './index.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import MaisPedidas from './components/MaisPedidas'
-import BoxPromo from './components/BoxPromo'
+import Promocoes from './components/Promocoes.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
     <HeroSection />
     <MaisPedidas />
-    <BoxPromo />
+    <Promocoes />
   </StrictMode>,
   
 )
