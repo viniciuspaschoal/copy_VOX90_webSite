@@ -1,0 +1,68 @@
+.atual-promocao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 60px;
+    width: 480px;
+    border-radius: 10px;
+    
+    box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+      
+}
+
+.atual-promocao img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title-promotion{
+    height: 130px;
+}
+
+.promote-title{
+    /*white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+
+    word-wrap: break-word; /* Quebra as palavras grandes para caber na área */
+    overflow-wrap: break-word; /* Faz o mesmo que word-wrap */
+    white-space: normal; /* Permite a quebra de linha */
+
+    font-size: 23px;
+    font-weight: bold;
+
+    margin: 1rem;
+    padding: 10px 20px;
+}
+
+.data-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 0.4em;
+}
+
+.participe-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    border-radius: 30px;
+    padding: 2px 8px;
+    width: 120px;
+    height: 50px;
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.validade{
+    color: #787878;
+}
